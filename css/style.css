@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*color: white;*/
+}
+body{
+    /*background: #ccc url("../img/img0.jpg" ) no-repeat right top fixed;*/
+    background-color: #141414;
+}
+footer{
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: black;  
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+}
+#footer-left{
+    margin-left: auto;
+}
+#footer-meio{
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+#footer-right{
+    
+}
+#footer-rede-social{
+    height: 110px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+table{
+    background-color: white;
+    border: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+tr{
+    background-color: black;
+    color: white;
+}
+td{
+    background-color: white;
+    color: white;
+}
+input{
+    width: 80px;
+    /*background-color: white;*/
+    text-align: center;
+    float: right;
+    border: 0px;
+    pointer-events:none;
+    outline:none;
+}
+.input-nome{
+    background-color: black;
+    color: white;
+}
+.texto-verde{
+    color: green;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+#nav{
+    margin: 0px;
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 30px 300px auto 300px 30px;
+}
+#logo-nav{
+    width: 121px;
+    height: 33px;
+}
+#avatar-user{
+    height: 32px;
+    width: 32px;
+    margin-left: auto;
+}
+#cabecalho{
+    width: 100%;
+    height: 130px;
+    padding-top: 10px;
+}
+#logo-cabecalho{
+    width: 130px;
+    height: 124px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ano{
+    width: 100%;
+    height: 43px;
+    padding-top: 5px;
+}
+#data{
+    width: 656px;
+    height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 143px auto 143px;
+}
+#data-left{
+  
+}
+#data-meio{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+#data-right{
+
+}
+#conteudo{
+    width: 100%;
+    height: 300px;
+    padding-top: 5px;
+    
+}
+#tabela{
+    width: 656px;
+    height: 375px;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #141414;
+}
